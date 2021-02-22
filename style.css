@@ -8,10 +8,23 @@
     height:80px;
     background-color: rgb(46, 142, 252);
     background-image: url(img/pattern.png);
-    background-size: 25%;
+    background-size: 17%;
     color: white;
 }
 
 .banner :last-child {
     font-size: 30px;
+}
+
+h1 {
+ font-size: 30px;
+}
+
+section > p {
+    color: gray;
+    font-size: 15px;
+}
+
+.credits {
+    font-size: 12px;
 }
