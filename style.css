@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 60vw;
+    margin: auto;
+}
+    
+
 .banner {
     height:80px;
     background-color: rgb(46, 142, 252);
@@ -10,17 +16,16 @@
     color: white;
 }
 
-.banner :last-child {
+.banner .container > p{
+    margin:0; 
+}
+
+.banner .container :last-child {
     font-size: 30px;
 }
 
 h1 {
  font-size: 30px;
-}
-
-.container {
-    width: 80vw;
-    margin: auto;
 }
 
 section > p {
@@ -57,14 +62,14 @@ footer .container > p {
 #monitor {
     background-image: url(img/monitor.jpg);
     color: white;
-    width: 300px;
+    width: 250px;
     height: 200px;
 }
 
 #graph {
     background-image: url(img/graph.jpg);
     color: white;
-    width: 300px;
+    width: 250px;
     height: 200px;
 }
 
