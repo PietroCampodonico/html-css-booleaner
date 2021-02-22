@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 .banner {
     height:80px;
@@ -41,3 +44,34 @@ thead {
 .first-row, .third-row > td {
     background-color: lightblue;
 }
+
+footer > p{
+    color: grey;
+}
+
+footer > div {
+    color: white;
+    width: 300px;
+    height: 250px;
+}
+
+#monitor {
+    background-image: url(img/monitor.jpg);
+}
+
+#graph {
+    background-image: url(img/graph.jpg);
+}
+
+#graph > p {
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#monitor > p {
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
