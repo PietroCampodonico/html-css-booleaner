@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -16,12 +18,10 @@
     color: white;
 }
 
-.banner .container > p{
-    margin:0; 
-}
-
-.banner .container :last-child {
-    font-size: 30px;
+#logo {
+    margin-top: 35px;
+    width: 200px;
+    height: 40px;
 }
 
 h1 {
