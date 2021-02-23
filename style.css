@@ -8,7 +8,8 @@
     width: 60vw;
     margin: auto;
 }
-    
+ 
+/* Header */
 
 .banner {
     height:80px;
@@ -16,47 +17,81 @@
     background-image: url(img/pattern.png);
     background-size: 17%;
     color: white;
+    margin-bottom: 20px;
 }
 
 #logo {
     margin-top: 35px;
-    width: 200px;
-    height: 40px;
+    width: 170px;
 }
 
-h1 {
- font-size: 30px;
+/* Titolo e Immagini */
+
+#titolo {
+    margin-bottom: 15px;
 }
 
-section > p {
-    color: gray;
-    font-size: 15px;
+#titolo > h1 {
+    font-size: 30px;
+}
+
+#titolo p > span {
+    color: turquoise;
+}
+
+#titolo :nth-child(3) {
+    font-size: medium;
 }
 
 .credits {
-    font-size: 12px;
+    color: gray;
+    font-size: 10px;
 }
+
+.img-description :last-child {
+    margin-bottom: 15px;
+}
+
+/* Paragrafo e lista */
+
+ul {
+    margin: 20px 0;
+}
+
+/* Tabella */
 
 table {
     border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
-td {
-    height: 35px;
-}
-
-thead {
+th {
     color: white;
     background-color: rgb(135, 175, 250);
     text-align: left;
 }
 
+tbody tr {
+    height: 35px;
+}
+
+
+
 .first-row, .third-row > td {
     background-color: lightblue;
 }
 
+.colonna25 {
+    width: 25%;
+}
+
+/* footer */
+
 footer .container > p {
+    margin-top: 40px;
+    margin-bottom: 20px;
     color: grey;
+    font-size: 18px;
 }
 
 #monitor {
