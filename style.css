@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container {
+.wrapper {
     width: 60vw;
     margin: auto;
 }
@@ -75,8 +75,6 @@ tbody tr {
     height: 35px;
 }
 
-
-
 .first-row, .third-row > td {
     background-color: lightblue;
 }
@@ -87,7 +85,7 @@ tbody tr {
 
 /* footer */
 
-footer .container > p {
+footer .wrapper > p {
     margin-top: 40px;
     margin-bottom: 20px;
     color: grey;
@@ -108,14 +106,8 @@ footer .container > p {
     height: 200px;
 }
 
-#graph > p {
+#graph > p, #monitor > p {
     margin: 5px;
-    padding: 10px;
-    font-weight: bold;
-}
-
-#monitor > p {
-    margin: 0;
     padding: 10px;
     font-weight: bold;
 }
